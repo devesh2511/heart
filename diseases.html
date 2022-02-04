@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <title>Explore Disease</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="css/component.css">
+  <link rel="stylesheet" href="css/default.css">
+<style>
+    .liveSearchBar{
+        display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+  .liveSearchBar, .liveSearchBar li .search{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.liveSearchBar, .liveSearchBar li .search a{
+  color:rgb(0, 0, 0) !important;
+  text-decoration:none;
+}
+a{
+    color: black;
+}
+#live-search fieldset{
+  border:0;
+  padding-left:0;
+}
+:focus{
+  outline:none;
+}
+.text-input{
+  height:30px;
+  background: none;
+  border:1px solid #fff;
+  padding:5px ;
+  font-family: 'codropsicons';
+  font-size: 20px;
+  color:rgb(0, 0, 0);
+  margin-right: 1vw;
+}
+::-webkit-input-placeholder {
+     color: rgb(0, 0, 0);
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+     color: rgb(0, 0, 0);  
+  }
+  
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: rgb(0, 0, 0);  
+  }
+  
+  :-ms-input-placeholder {  
+     color: rgb(0, 0, 0);  
+  }
+  .search{
+      margin: 3vh;
+      padding: 3vh;
+  }
+</style>
+</head>
+<body>
+    <div class="container demo-1">
+    <header>
+		<nav class="mobile-menu">
+			<label for="show-menu" class="show-menu"><span>Explore Diseases</span><div class="lines">  
+			</div></label>
+			  <input type="checkbox" id="show-menu">
+				<ul class="nav_list" id="menu">
+          <li class="nav_item">
+          <a href="index.html" class="nav_link active">Home</a>
+          </li>
+          <li class="nav_item">
+          <a href="#about" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+          <a href="diseases.html" class="nav_link">Explore Diseases</a>
+          </li>
+          <li class="nav_item">
+          <a href="healthcalc.html" class="nav_link">Health Calculator</a>
+          </li>
+      </ul>
+			</nav>
+					<h1>Heart Diseases</a><span>Symptoms, Precations, Cures</span></h1>
+				</header>
+                <div class="container demo-1">
+<form id="live-search" action="" class="styled" method="post">
+    <fieldset>
+        <center>
+        <input type="text" class="text-input" id="filter" placeholder="search city"/>
+        <span id="filter-count"></span>
+        </center>
+    </fieldset>
+</form>
+
+  <nav>
+     <ul class="liveSearchBar">
+      <li  class="search"><div class="card" style="width: 18rem;">
+        <img src="img/cad.jpg" class="card-img-top" alt="...">
+        <!-- Card -->
+        <div class="card-body">
+          <h5 class="card-title">Coronary Artery Disease (CAD)</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button class="modalbutton" href="#myModal1">Learn More</button>
+        </li>
+          <!-- The Modal -->
+          <div id="myModal1" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Coronary Artery Disease (CAD)</h2>
+                <span class="close"><b>×</b></span>
+                
+              </div>
+              <div class="modal-body">
+              
+              <div class="symp" style="max-width: 20vw;">
+                <h4>Symptoms</h4>
+                <p>Chest pain or discomfort (angina)</p>
+                 <p> <p>Weakness, light-headedness, nausea (feeling sick to your stomach), or a cold sweat.</p>
+                  <p>Pain or discomfort in the arms or shoulder.</p>
+                  <p>Shortness of breath.</p>
+              </div>
+
+              <div class="prec">
+                <h4>Precautions</h4>
+                <p>Lose weight.</p> 
+                <p>Lower blood pressure.</p> 
+                <p>Limit alcohol.</p> 
+                <p>Keep blood sugar under control.</p> 
+                <p>Reduce stress.</p>
+              </div>
+
+              <div class="hosp">
+                <h4>Best Hospital in India</h4>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9581270933295!2d72.85875221412358!3d19.06557855725619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e632b92973%3A0xfc994ae0b57a17a4!2sAsian%20Heart%20Institute!5e0!3m2!1sen!2sin!4v1643733737159!5m2!1sen!2sin" width="400" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                </p>
+              </div>
+
+              </div>
+              
+            </div>
+          </div>
+        
+    
+
+          <li  class="search"><div class="card" style="width: 18rem;">
+            <img src="img/heartfailure.jpg" class="card-img-top" alt="...">
+            <!-- Card -->
+            <div class="card-body">
+              <h5 class="card-title">Heart Failure</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button class="modalbutton" href="#myModal2">Learn More</button>
+            </li>
+              <!-- The Modal -->
+              <div id="myModal2" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2>Coronary Artery Disease (CAD)</h2>
+                    <span class="close"><b>×</b></span>
+                    
+                  </div>
+                  <div class="modal-body">
+                  
+                  <div class="symp" style="max-width: 20vw;">
+                    <h4>Symptoms</h4>
+                    <p>Chest pain or discomfort (angina)</p>
+                     <p> <p>Weakness, light-headedness, nausea (feeling sick to your stomach), or a cold sweat.</p>
+                      <p>Pain or discomfort in the arms or shoulder.</p>
+                      <p>Shortness of breath.</p>
+                  </div>
+    
+                  <div class="prec">
+                    <h4>Precautions</h4>
+                    <p>Lose weight.</p> 
+                    <p>Lower blood pressure.</p> 
+                    <p>Limit alcohol.</p> 
+                    <p>Keep blood sugar under control.</p> 
+                    <p>Reduce stress.</p>
+                  </div>
+    
+                  <div class="hosp">
+                    <h4>Best Hospital in India</h4>
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9581270933295!2d72.85875221412358!3d19.06557855725619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e632b92973%3A0xfc994ae0b57a17a4!2sAsian%20Heart%20Institute!5e0!3m2!1sen!2sin!4v1643733737159!5m2!1sen!2sin" width="400" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                    </p>
+                  </div>
+    
+                  </div>
+                  
+                </div>
+              </div>
+            
+
+              <li  class="search"><div class="card" style="width: 18rem;">
+                <img src="img/Arrhythmias.jpg" class="card-img-top" alt="...">
+                <!-- Card -->
+                <div class="card-body">
+                  <h5 class="card-title">Heart Arrhythmias</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button class="modalbutton" href="#myModal3">Learn More</button>
+                </li>
+                  <!-- The Modal -->
+                  <div id="myModal3" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2>Coronary Artery Disease (CAD)</h2>
+                        <span class="close"><b>×</b></span>
+                        
+                      </div>
+                      <div class="modal-body">
+                      
+                      <div class="symp" style="max-width: 20vw;">
+                        <h4>Symptoms</h4>
+                        <p>Chest pain or discomfort (angina)</p>
+                         <p> <p>Weakness, light-headedness, nausea (feeling sick to your stomach), or a cold sweat.</p>
+                          <p>Pain or discomfort in the arms or shoulder.</p>
+                          <p>Shortness of breath.</p>
+                      </div>
+        
+                      <div class="prec">
+                        <h4>Precautions</h4>
+                        <p>Lose weight.</p> 
+                        <p>Lower blood pressure.</p> 
+                        <p>Limit alcohol.</p> 
+                        <p>Keep blood sugar under control.</p> 
+                        <p>Reduce stress.</p>
+                      </div>
+        
+                      <div class="hosp">
+                        <h4>Best Hospital in India</h4>
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9581270933295!2d72.85875221412358!3d19.06557855725619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e632b92973%3A0xfc994ae0b57a17a4!2sAsian%20Heart%20Institute!5e0!3m2!1sen!2sin!4v1643733737159!5m2!1sen!2sin" width="400" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                        </p>
+                      </div>
+        
+                      </div>
+                      
+                    </div>
+                  </div>
+            
+                  <li  class="search"><div class="card" style="width: 18rem;">
+                    <img src="img/Rheumatic.jpg" class="card-img-top" alt="...">
+                    <!-- Card -->
+                    <div class="card-body">
+                      <h5 class="card-title">Rheumatic Heart Disease</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button class="modalbutton" href="#myModal4">Learn More</button>
+                    </li>
+                      <!-- The Modal -->
+                      <div id="myModal4" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2>Coronary Artery Disease (CAD)</h2>
+                            <span class="close"><b>×</b></span>
+                            
+                          </div>
+                          <div class="modal-body">
+                          
+                          <div class="symp" style="max-width: 20vw;">
+                            <h4>Symptoms</h4>
+                            <p>Chest pain or discomfort (angina)</p>
+                             <p> <p>Weakness, light-headedness, nausea (feeling sick to your stomach), or a cold sweat.</p>
+                              <p>Pain or discomfort in the arms or shoulder.</p>
+                              <p>Shortness of breath.</p>
+                          </div>
+            
+                          <div class="prec">
+                            <h4>Precautions</h4>
+                            <p>Lose weight.</p> 
+                            <p>Lower blood pressure.</p> 
+                            <p>Limit alcohol.</p> 
+                            <p>Keep blood sugar under control.</p> 
+                            <p>Reduce stress.</p>
+                          </div>
+            
+                          <div class="hosp">
+                            <h4>Best Hospital in India</h4>
+                            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9581270933295!2d72.85875221412358!3d19.06557855725619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e632b92973%3A0xfc994ae0b57a17a4!2sAsian%20Heart%20Institute!5e0!3m2!1sen!2sin!4v1643733737159!5m2!1sen!2sin" width="400" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                            </p>
+                          </div>
+            
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                      <li  class="search"><div class="card" style="width: 18rem;">
+                        <img src="img/Pericarditis.jpg" class="card-img-top" alt="...">
+                        <!-- Card -->
+                        <div class="card-body">
+                          <h5 class="card-title">Pericarditis</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="modalbutton" href="#myModal5">Learn More</button>
+                        </li>
+                          <!-- The Modal -->
+                          <div id="myModal5" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h2>Pericarditis</h2>
+                                <span class="close"><b>×</b></span>
+                                
+                              </div>
+                              <div class="modal-body">
+                              
+                              <div class="symp" style="max-width: 20vw;">
+                                <h4>Symptoms</h4>
+                                <p>Chest pain or discomfort (angina)</p>
+                                 <p> <p>Weakness, light-headedness, nausea (feeling sick to your stomach), or a cold sweat.</p>
+                                  <p>Pain or discomfort in the arms or shoulder.</p>
+                                  <p>Shortness of breath.</p>
+                              </div>
+                
+                              <div class="prec">
+                                <h4>Precautions</h4>
+                                <p>Lose weight.</p> 
+                                <p>Lower blood pressure.</p> 
+                                <p>Limit alcohol.</p> 
+                                <p>Keep blood sugar under control.</p> 
+                                <p>Reduce stress.</p>
+                              </div>
+                
+                              <div class="hosp">
+                                <h4>Best Hospital in India</h4>
+                                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9581270933295!2d72.85875221412358!3d19.06557855725619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e632b92973%3A0xfc994ae0b57a17a4!2sAsian%20Heart%20Institute!5e0!3m2!1sen!2sin!4v1643733737159!5m2!1sen!2sin" width="400" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                                </p>
+                              </div>
+                
+                              </div>
+                              
+                            </div>
+                          </div>
+     </ul>
+  </nav>
+  <p id="cond" style="display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  font-size: 3vh;
+  font-weight: 600;"></p>
+
+                </div>
+                  <!-- partial -->
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+                  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.2/umd/popper.min.js'></script>    
+
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+  <script  src="js/custom.js"></script>
+  <script  src="js/modal.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#filter").keyup(function(){
+ 
+        // Retrieve the input field text and reset the count to zero
+        var filter = $(this).val(), count = 0;
+ 
+        // Loop through the comment list
+        $("nav ul li.search").each(function(){
+ 
+            // If the list item does not contain the text phrase fade it out
+            if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                $(this).fadeOut();
+ 
+            // Show the list item if the phrase matches and increase the count by 1
+            } else {
+                $(this).show();
+                count++;
+            }
+        });
+ 
+        // Update the count
+        
+        let result;
+        $("#filter-count").text("Number of Results = "+count);
+        if (count == 0){
+          document.getElementById("cond").innerHTML = `No Results Found`;
+        }
+        else{
+`<p><p/>`
+        }
+        }
+    );
+});
+</script>
+</body>
+</html>
