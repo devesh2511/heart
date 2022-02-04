@@ -42,7 +42,7 @@ a:active {
 .main,
 .container > header {
 	margin: 0 auto;
-	padding: 2em;
+	/* padding: 2em; */
 }
 
 .mobile-menu {
@@ -148,7 +148,7 @@ a:active {
 	  border-bottom: 15px double #f8f8f8; 
 	  border-top: 5px solid #f8f8f8; 
 	  content:"";
-	  height: 5px; 
+	  height: 4vh; 
 	  width:20px;
 	  padding-right:15px;
 	float: right;
@@ -366,14 +366,22 @@ a:active {
 }
 
 buttonagain {
-	margin-top: 20px;
-	line-height: 60px;
-	font-weight: bold;
-	padding: 2.5vh;
+	text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    background: #76C3BD;
+    color: #fff;
+    padding: 2vh 2vh 2vh 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+	margin-left: 10vw;
+  }
+  buttonagain::before{
+	content: "\2190";
+	color: #fff;
+	padding: 2vh;
+	margin: 0 0.8em 0 0;
 	background: #69B1A9;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
   }
   buttonagain:hover {
 	background: #28665f;
