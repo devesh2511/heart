@@ -122,7 +122,7 @@
 }
 
 .nl-dd ul li.nl-dd-checked:before {
-	content: "\e000";
+	content: "\2192";
 	position: absolute;
 	right: 1em;
 	font-size: 50%;
@@ -153,7 +153,7 @@
 }
 
 .nl-field-go:before {
-	content: "\e001";
+	content: "\2192";
 	font-size: 75%;
 	color: #fff;
 	width: 100%;
@@ -218,14 +218,11 @@ input:focus::-ms-input-placeholder {
 	margin: 0 0.8em 0 0;
 	background: #69B1A9;
 }
-.no-touch .nl-form .nl-submit:hover,
-.no-touch .nl-form .nl-submit:active {
-	background: #69B1A9;
+ .nl-form .nl-submit:hover,
+ .nl-form .nl-submit:active {
+	background: #28665f;
 }
 
-.no-touch .nl-form .nl-submit:hover:before {
-	background: #58a199;
-}
 .nl-overlay {
 	position: fixed;
 	top: 0;
@@ -247,6 +244,29 @@ input:focus::-ms-input-placeholder {
 	-moz-transition-delay: 0s;
 	transition-delay: 0s;
 }
+
+buttonagain {
+	text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    background: #76C3BD;
+    color: #fff;
+    padding: 2vh 2vh 2vh 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+	margin-left: 10vw;
+  }
+  buttonagain::before{
+	content: "\2190";
+	color: #fff;
+	padding: 2vh;
+	margin: 0 0.8em 0 0;
+	background: #69B1A9;
+  }
+  buttonagain:hover {
+	background: #28665f;
+  }
+
 @media screen and (max-width: 45em) {
 	.nl-form {
 		font-size: 3em;

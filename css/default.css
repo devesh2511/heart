@@ -364,25 +364,3 @@ a:active {
 	}
 
 }
-
-buttonagain {
-	text-transform: uppercase;
-    cursor: pointer;
-    position: absolute;
-    background: #76C3BD;
-    color: #fff;
-    padding: 2vh 2vh 2vh 0;
-    font-weight: bold;
-    letter-spacing: 3px;
-	margin-left: 10vw;
-  }
-  buttonagain::before{
-	content: "\2190";
-	color: #fff;
-	padding: 2vh;
-	margin: 0 0.8em 0 0;
-	background: #69B1A9;
-  }
-  buttonagain:hover {
-	background: #28665f;
-  }

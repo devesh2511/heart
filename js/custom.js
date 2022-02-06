@@ -22,22 +22,24 @@ function handleSubmit(e) {
           prediction = parseFloat(data['probability'][0][1]).toFixed(5);
           console.log(prediction)
           document.querySelector('.loader').style.display = 'none';
-          if (cigs >= 1) {
+          if (cigs > 0 & prediction > 0.07) {
             document.querySelector('.clearfix').innerHTML = `
-            <p class="nl-form">Quit Smoking Today<br>Predicted probability of having a coronary heart disease (Heart Attack)is ${prediction*100} %</p>`
+            <p class="nl-form">Quit Smoking Today<br>Predicted probability of having a coronary heart disease (Heart Attack)is ${prediction*100} % Please Consult Cardiologist</p>`;
 
           }
-          else{
+          else if (cigs > 1 & prediction < 0.07){
             document.querySelector('.clearfix').innerHTML = `
-            <p class="nl-form">Predicted probability of having a coronary heart disease (Heart Attack) is ${prediction*100} %</p>`
+            <p class="nl-form">Quit Smoking Today<br>Predicted probability of having a coronary heart disease (Heart Attack) is ${prediction*100} %</p>`;
           }
+            else{
+              document.querySelector('.clearfix').innerHTML = `
+              <p class="nl-form">Predicted probability of having a coronary heart disease (Heart Attack) is ${prediction*100} %</p>`;} 
         })
         .catch(err => {
           console.log(err)
              document.querySelector('.loader').style.display = 'none'; 
           document.querySelector('.clearfix').innerHTML = `
-          <p class="nl-form"> Sorry, some error occurred while processing your request. </p>
-        `
+          <p class="nl-form"> Sorry, some error occurred while processing your request. </p>`
         })
         var button = document.createElement("buttonagain");
           button.innerHTML = "Predict for Other";
