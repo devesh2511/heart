@@ -180,14 +180,11 @@
 
 			if( this.type === 'dropdown' ) {
 				if( opt ) {
-					// remove class nl-dd-checked from previous option
 					var selectedopt = this.optionsList.children[ this.selectedIdx ];
 					selectedopt.className = '';
 					opt.className = 'nl-dd-checked';
 					this.toggle.innerHTML = opt.innerHTML;
-					// update selected index value
 					this.selectedIdx = idx;
-					// update original select element´s value
 					this.elOriginal.value = this.elOriginal.children[ this.selectedIdx ].value;
 					if ("createEvent" in document) {
 					    var evt = document.createEvent("HTMLEvents");
@@ -205,7 +202,5 @@
 			}
 		}
 	};
-
-	// add to global namespace
 	window.NLForm = NLForm;
 } )( window );
