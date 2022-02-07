@@ -1,20 +1,15 @@
 
-
-/* general style for the form */
 .nl-form {
 	width: 100%;
 	margin: 0.3em auto 0 auto;
 	font-size: 4em;
 	line-height: 1.5;
 }
-
 .nl-form ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
-/* normalize the input elements, make them look like everything else */
 .nl-form input,
 .nl-form select,
 .nl-form button {
@@ -31,22 +26,16 @@
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
-
 .nl-form input:focus {
 	outline: none;
 }
-
-/* custom field (drop-down, text element) styling  */
 .nl-field {
 	display: inline-block;
 	position: relative;
 }
-
 .nl-field.nl-field-open {
 	z-index: 10000;
 }
-
-/* the toggle is the visible part in the form */
 .nl-field-toggle,
 .nl-form input,
 .nl-form select  {
@@ -56,8 +45,6 @@
 	cursor: pointer;
 	border-bottom: 1px dashed #b14943;
 }
-
-/* drop-down list / text element */
 .nl-field ul {
 	position: absolute;
 	visibility: hidden;
@@ -73,7 +60,6 @@
 	-moz-transition: visibility 0s 0.3s, opacity 0.3s, -moz-transform 0.3s;
 	transition: visibility 0s 0.3s, opacity 0.3s, transform 0.3s;
 }
-
 .nl-field.nl-field-open ul {
 	visibility: visible;
 	opacity: 1;
@@ -84,31 +70,24 @@
 	-moz-transition: visibility 0s 0s, opacity 0.3s, -moz-transform 0.3s;
 	transition: visibility 0s 0s, opacity 0.3s, transform 0.3s;
 }
-
 .nl-field ul li {
 	color: #fff;
 	position: relative;
 }
-
 .nl-dd ul li {
 	padding: 0 1.5em 0 0.5em;
 	cursor: pointer;
 	white-space: nowrap;
 }
-
 .nl-dd ul li.nl-dd-checked {
 	color: #478982;
 }
-
 .no-touch .nl-dd ul li:hover {
 	background: rgba(0,0,0,0.05);
 }
-
 .no-touch .nl-dd ul li:hover:active {
 	color: #478982;
 }
-
-/* icons for some elements */
 .nl-dd ul li.nl-dd-checked:before,
 .nl-submit:before,
 .nl-field-go:before {
@@ -120,7 +99,6 @@
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
-
 .nl-dd ul li.nl-dd-checked:before {
 	content: "\2192";
 	position: absolute;
@@ -128,18 +106,15 @@
 	font-size: 50%;
 	line-height: 3;
 }
-
 .nl-ti-text ul {
 	min-width: 8em;
 }
-
 .nl-ti-text ul li.nl-ti-input input {
 	width: 100%;
 	padding: 0.2em 2em 0.2em 0.5em;
 	border-bottom: none;
 	color: #fff;
 }
-
 .nl-form .nl-field-go {
 	position: absolute;
 	right: 0;
@@ -151,7 +126,6 @@
 	text-align: center;
 	color: transparent;
 }
-
 .nl-field-go:before {
 	content: "\2192";
 	font-size: 75%;
@@ -160,12 +134,9 @@
 	line-height: 2.5;
 	display: block;
 }
-
-/* custom placeholder color */
 input::-webkit-input-placeholder {
 	color: rgba(255,255,255,0.8);
 }
-
 input:active::-webkit-input-placeholder ,
 input:focus::-webkit-input-placeholder {
 	color: rgba(255,255,255,0.2);
@@ -222,7 +193,6 @@ input:focus::-ms-input-placeholder {
  .nl-form .nl-submit:active {
 	background: #28665f;
 }
-
 .nl-overlay {
 	position: fixed;
 	top: 0;

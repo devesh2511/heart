@@ -48,7 +48,6 @@ button.modalbutton:hover, button.modalbutton:focus {
   padding: 1vh;
   border-radius: 25px;
 }
-
 .modal {
   display: none; /* Hidden by default */
   position: fixed;
@@ -62,8 +61,6 @@ button.modalbutton:hover, button.modalbutton:focus {
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
 }
-
-/* Modal Content */
 .modal-content {
   position: relative;
     background-color: #fefefe;
@@ -79,18 +76,14 @@ button.modalbutton:hover, button.modalbutton:focus {
     animation-duration: 0.4s;
 }
 
-/* Add Animation */
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0}
   to {top:0; opacity:1}
 }
-
 @keyframes animatetop {
   from {top:-300px; opacity:0}
   to {top:0; opacity:1}
 }
-
-/* The Close Button */
 .close {
   color: white;
   float: right;
@@ -98,21 +91,18 @@ button.modalbutton:hover, button.modalbutton:focus {
   font-weight: bold;
   opacity: 100%;
 }
-
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-
 .modal-header {
   padding: 2px 16px;
   background-color: #e96e65de;
   color: rgb(0, 0, 0);
   
 }
-
 .modal-body{
   padding: 2px 16px;
     display: flex;
@@ -120,7 +110,6 @@ button.modalbutton:hover, button.modalbutton:focus {
     justify-content: space-around;
     align-content: center;
 }
-
 .liveSearchBar{
   display: flex;
 justify-content: center;
@@ -155,23 +144,8 @@ font-size: 20px;
 color: rgb(0, 0, 0);
 margin-left: 1vw;
 margin-right: 1vw;
-border-radius: 10px;
+text-align: center;
 max-width: 70vw;
-}
-::-webkit-input-placeholder {
-color: rgb(0, 0, 0);
-}
-
-:-moz-placeholder { /* Firefox 18- */
-color: rgb(0, 0, 0);  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-color: rgb(0, 0, 0);  
-}
-
-:-ms-input-placeholder {  
-color: rgb(0, 0, 0);  
 }
 .search{
 margin: 3vh;
