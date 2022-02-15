@@ -17,6 +17,7 @@ body, html {
 .clearfix:after { clear: both; }
 
 body {
+	font-weight:500;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background: #E96D65;
 	color: rgb(255, 255, 255);
