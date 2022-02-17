@@ -41,4 +41,4 @@ Provide various use cases and code examples here.
 `write-your-code-here`
 
 ## Contact
-Created by [@pragyamahajan](https://github.com/pragyamahajan) - feel free to contact me!
+Created by [@deveshjain](https://github.com/devesh2511) - feel free to contact me!
