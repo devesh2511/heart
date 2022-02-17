@@ -134,7 +134,6 @@
 				this.inputsubmit.addEventListener( 'click', function( ev ) { ev.preventDefault(); self.close(); } );
 				this.inputsubmit.addEventListener( 'touchstart', function( ev ) { ev.preventDefault(); self.close(); } );
 			}
-
 		},
 		_open : function() {
 			if( this.open ) {
