@@ -44,7 +44,8 @@ The calculator will subsequently also show how less or more the weight of the us
 ## Usage
 
 > Its Easy to Use Website
-> Input generic information like age, sex, no. of cigarettes smokes per day,cholestrol level, blood pressure,whether diabetic patient, sugar level and heartrate.
+> Input generic information like age, sex, no. of cigarettes smokes per day,cholestrol level, blood pressure,whether diabetic patient, sugar level, and heartrate.
+> For BMI, BMR input height, weight, age, and exercise type.
 
 ```
 setTimeout(() => {
@@ -69,4 +70,4 @@ setTimeout(() => {
    ```
         
 ## Contact
-Created by [@pragyamahajan](https://github.com/pragyamahajan) - feel free to contact me!
+Created by [@deveshjain](https://github.com/devesh2511) - feel free to contact me!
