@@ -253,15 +253,15 @@ function calculateHealth() {
             textColor = 'warning';
             weightText = "High OverWeight";
         } else if (BMI > 34.9 && BMI <= 39.9) {
-            state = "obese (High)"
-            explainState = "Overweight (Stage-2). <br> Excess Fat";
-            tips = "Need to eat moderately and exercise a lot. <br> Weight control should be brought. <br> Doctor's advice is needed if necessary"
+            state = "Obese (high)";
+            explainState = "Obese (stage-2) : Excess fat and excess weight. ";
+            tips = "Need to eat moderately and exercise alot. Consult your dietician";
             textColor = 'danger';
             weightText = "OverWeight (very high)";
         } else {
             state = "Extremly obese"
             explainState = "Extreme Obesity (Final Stage). Risk of Death!";
-            tips = "Doctor's advice is needed. Weight control should be done quickly"
+            tips = "Weight control routine should be implemented immediately . Expert doctor's advice is must."
             textColor = 'danger';
             weightText = "OverWeight (extreme)";
         }
