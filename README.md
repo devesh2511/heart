@@ -1,7 +1,7 @@
 # Project Name
 > Outline a brief description of your project.
 
-> [Live demo here](https://www.example.com).
+> [Live demo here](https://heartfit-dsn.netlify.app/).
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -70,4 +70,4 @@ setTimeout(() => {
    ```
         
 ## Contact
-Created by [@deveshjain](https://github.com/devesh2511) - feel free to contact me!
+Created by [@pragyamahajan](https://github.com/pragyamahajan) - feel free to contact me!
