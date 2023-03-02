@@ -16,7 +16,7 @@ function handleSubmit(e) {
   document.querySelector('.nl-form').style.display = 'none';
   document.querySelector('.loader').style.display = 'block';
   setTimeout(() => {
-    fetch(`https://heart-sn1y.onrender.com/predict?age=${age}&sex=${sex}&cigs=${cigs}&chol=${cholestrol}&sBP=${sBP}&dia=${diabetes}&dBP=${dBP}&gluc=${glucose}&hRate=${heartRate}`)
+    fetch(`https://heartapi-dev.onrender.com/predict?age=${age}&sex=${sex}&cigs=${cigs}&chol=${cholestrol}&sBP=${sBP}&dia=${diabetes}&dBP=${dBP}&gluc=${glucose}&hRate=${heartRate}`)
       .then(res => res.json())
       .then(data => {
         prediction = parseFloat(data['probability'][0][1]).toFixed(5);
