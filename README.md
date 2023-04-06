@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# CardioPred 
+> Web Application using Flask REST API which predicts probability of Coronary Heart Disease in a patient taking 9 parameters based on patient's history as input. The API uses a Logistic Regression Model from scikit-learn trained on the Framingham Heart Study Dataset from Kaggle. The model achieved a test accuracy of around 88%.
 
 > [Live demo here](https://heartfit-dsn.netlify.app/).
 
@@ -27,7 +27,7 @@ The calculator will subsequently also show how less or more the weight of the us
 - HTML5
 - CSS3
 - Javascript
-- healthAPI
+- API(https://github.com/devesh2511/HeartDiseaseAPI)
 - collect.chat
 - GoogleMapsAPI
 
@@ -70,4 +70,4 @@ setTimeout(() => {
    ```
         
 ## Contact
-Created by [@pragyamahajan](https://github.com/pragyamahajan) - feel free to contact me!
+Created by [@devesh2511](https://github.com/devesh2511) - feel free to contact me!
